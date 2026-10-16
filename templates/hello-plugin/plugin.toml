@@ -1,0 +1,14 @@
+# Copy this folder to plugins/<your-id>/ and edit.
+id = "hello-plugin"          # a-z 0-9 - _ ; must match the folder name
+name = "Hello Plugin"
+version = "1.0.0"
+api = 1
+author = "your-github-name"
+description = "One line: what your plugin does."
+# Only ask for what you use. See the permission table in PLUGIN_GUIDE.md.
+permissions = ["audio", "overlay", "panel"]
+accent = "#3aa0ff"           # optional: card colour on the Plugins page
+flashing = false             # true if your plugin flashes the screen
+
+[settings]
+color = { type = "color", default = "#3aa0ff", label = "Colour" }

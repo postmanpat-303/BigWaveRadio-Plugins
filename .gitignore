@@ -1,0 +1,4 @@
+bin/
+dist/
+summary.md
+__pycache__/

@@ -1,0 +1,42 @@
+name: Plugin request
+description: Suggest a plugin you'd like someone to build
+title: "[Plugin request] "
+labels: ["plugin request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Describe the plugin you'd like. Anyone can pick it up, or you can build it yourself with an AI assistant (see CONTRIBUTING.md).
+  - type: textarea
+    id: idea
+    attributes:
+      label: What should the plugin do?
+      placeholder: "e.g. A page that shows a VU meter and the song history"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Where does it show up?
+      multiple: true
+      options:
+        - Side bar page
+        - Panel on the Plugins page
+        - In-window overlay
+        - Fullscreen overlay
+        - No UI (background)
+  - type: textarea
+    id: audio
+    attributes:
+      label: How should it react to the music?
+      placeholder: "beats, bass, BPM, song changes..."
+  - type: checkboxes
+    id: flashing
+    attributes:
+      label: Flashing
+      options:
+        - label: This idea involves flashing lights (the app will cap the flash rate and show a warning)
+  - type: textarea
+    id: refs
+    attributes:
+      label: References / mock-ups
