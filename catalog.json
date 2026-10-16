@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "plugins": [
+    {
+      "id": "bass-border",
+      "name": "Bass Border",
+      "version": "1.0.0",
+      "author": "BigWave Radio examples",
+      "description": "A glowing border that pulses with the bass, drawn in-window over the app.",
+      "permissions": [
+        "audio",
+        "overlay",
+        "hotkeys",
+        "panel"
+      ],
+      "flashing": true,
+      "download_url": "https://github.com/postmanpat-303/BigWaveRadio-Plugins/releases/download/catalog/bass-border.zip",
+      "sha256": "8c2c4352432e9b4f2f864fa97e89abdaaf27922df24afecc085b794409c7d7de",
+      "size": 1348,
+      "readme": "plugins/bass-border/README.md",
+      "preview": null
+    },
+    {
+      "id": "mini-visualiser",
+      "name": "Mini Visualiser",
+      "version": "1.0.0",
+      "author": "BigWave Radio examples",
+      "description": "Adds a whole Visualiser page to the side bar: spectrum bars and a BPM readout.",
+      "permissions": [
+        "audio",
+        "page"
+      ],
+      "flashing": true,
+      "download_url": "https://github.com/postmanpat-303/BigWaveRadio-Plugins/releases/download/catalog/mini-visualiser.zip",
+      "sha256": "6c884ac0284d0f3c14c7b1987c7ffcb24dcb6de030240f3e0c1eb2ad6d065807",
+      "size": 1453,
+      "readme": "plugins/mini-visualiser/README.md",
+      "preview": null
+    },
+    {
+      "id": "now-playing-log",
+      "name": "Now Playing Log",
+      "version": "1.0.0",
+      "author": "BigWave Radio examples",
+      "description": "Keeps a list of the last 15 songs heard, with the station name.",
+      "permissions": [
+        "now_playing",
+        "panel",
+        "storage"
+      ],
+      "flashing": true,
+      "download_url": "https://github.com/postmanpat-303/BigWaveRadio-Plugins/releases/download/catalog/now-playing-log.zip",
+      "sha256": "4b6ccbba00bf94ec529bde39282442c89cdaa6133cdb2415e713a189a3115fa3",
+      "size": 1306,
+      "readme": "plugins/now-playing-log/README.md",
+      "preview": null
+    },
+    {
+      "id": "strobe",
+      "name": "Beat Strobe",
+      "version": "1.4.1",
+      "author": "BigWave Radio",
+      "description": "Strobe that randomly syncs to the beat, blacks out during breaks and flashes AI-uprising symbols. In-window or fullscreen.",
+      "permissions": [
+        "audio",
+        "overlay",
+        "fullscreen",
+        "hotkeys",
+        "panel",
+        "page"
+      ],
+      "flashing": true,
+      "download_url": "https://github.com/postmanpat-303/BigWaveRadio-Plugins/releases/download/catalog/strobe.zip",
+      "sha256": "49797f5e208dbdbbf8bec974d517559176d70daf10faa3ee243982315952f2e1",
+      "size": 137454,
+      "readme": "plugins/strobe/README.md",
+      "preview": "plugins/strobe/preview.png"
+    },
+    {
+      "id": "visions",
+      "name": "Visions",
+      "version": "1.0.1",
+      "author": "BigWave Radio",
+      "description": "MilkDrop-style audio visualiser: feedback tunnel, kaleidoscope, plasma, flow field, wireframe sphere, spectrum terrain, starfield and mandala, with smooth crossfades. Non-strobing.",
+      "permissions": [
+        "audio",
+        "overlay",
+        "fullscreen",
+        "hotkeys",
+        "panel",
+        "page"
+      ],
+      "flashing": false,
+      "download_url": "https://github.com/postmanpat-303/BigWaveRadio-Plugins/releases/download/catalog/visions.zip",
+      "sha256": "6d13475cb765df84f8c6d3d8bc45af36e79ce7e7d3b2872cbcf04595cf1d2237",
+      "size": 151470,
+      "readme": "plugins/visions/README.md",
+      "preview": "plugins/visions/preview.png"
+    }
+  ]
+}
