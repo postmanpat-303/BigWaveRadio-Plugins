@@ -56,6 +56,25 @@
       "preview": null
     },
     {
+      "id": "silence-skip",
+      "name": "Silence Skipper",
+      "version": "1.0.0",
+      "author": "BigWave Radio examples",
+      "description": "Skips to the next station in the list after 20 seconds of silence.",
+      "permissions": [
+        "audio",
+        "player_control",
+        "now_playing",
+        "panel"
+      ],
+      "flashing": false,
+      "download_url": "https://github.com/postmanpat-303/BigWaveRadio-Plugins/releases/download/catalog/silence-skip.zip",
+      "sha256": "5449fe11376adc370b9da02e9a927a1ede12f946d5e6c37e44dcefabf058a965",
+      "size": 1330,
+      "readme": "plugins/silence-skip/README.md",
+      "preview": null
+    },
+    {
       "id": "strobe",
       "name": "Beat Strobe",
       "version": "1.4.1",
